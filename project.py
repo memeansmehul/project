@@ -19,7 +19,7 @@ def form1():
 
 
 
-    #NAME
+#NAME
     label_1 = Label(root1, text="Name", width=10, font=("bold", 15))
     label_1.place(x=60, y=150)
     entry_1 = Entry(root1)
