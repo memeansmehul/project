@@ -2,10 +2,8 @@ from tkinter import *
 import tkinter
 import mysql.connector
 
-
 mydb = mysql.connector.connect(host="localhost", user="root", passwd="-----", database="karkeradb")
 cursor = mydb.cursor()
-
 root = Tk()
 root.geometry('500x500')
 sub = IntVar()
@@ -16,8 +14,6 @@ def form1():
     root1.geometry('500x500')
     label_0 = Label(root1, text="Form 1", width=20, font=("bold", 20))
     label_0.place(x=90, y=53)
-
-
 
 #NAME
     label_1 = Label(root1, text="Name", width=10, font=("bold", 15))
@@ -53,7 +49,6 @@ def form1():
     var4 = IntVar()
     cbutton4 = tkinter.Checkbutton(root1, text="SPM", variable=var4)
     cbutton4.place(x=190, y=320)
-
 
 #MUSIC
     label_4 = Label(root1, text="Interested in music", width=20, font=("bold", 15))
