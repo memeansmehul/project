@@ -1,5 +1,4 @@
 from tkinter import *
-import tkinter
 import mysql.connector
 
 mydb = mysql.connector.connect(host="localhost", user="root", passwd="-----", database="karkeradb")
